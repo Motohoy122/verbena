@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Cantata+One&display=swap');
+
+body{
+	/*background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);*/
+	background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%);
+	/*background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);*/
+	/*background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);*/
+	/*background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);*/
+	/*background-image: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);*/
+	/*background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);*/
+}
+
+/*#showcase {
+	max-height: 700px;
+	max-width:100%;
+}*/
+
+#showcase-left{
+/*	max-width:100%;
+	height: 400px;*/
+	position: relative;
+	box-shadow: 8px 8px 4px rgba(0,0,0,.2);
+	padding: 2px;
+	background: rgba(0,0,0,.2);
+}
+
+#showcase-right{
+/*	max-width:100%;
+	height: 400px;*/
+	position: relative;
+	box-shadow: -8px 8px 4px rgba(0,0,0,.2);
+	padding: 2px;
+	background: rgba(0,0,0,.2);
+}
+
+#projects {
+	outline: 0px;
+	text-align: center;
+}
+
+#description {
+	/*font-family: futura-pt;*/
+    font-weight: 800;
+    font-style: normal;
+    /*letter-spacing: -.015em;*/
+    text-transform: none;
+    line-height: 1.5em;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+#description h1{
+	font-size: 4em;
+	margin-bottom: 15px;
+	color: white;
+	font-family: 'Cantata One', serif;
+	font-weight: bold;
+}
+
+#description h3{
+	margin-bottom: 1.2em;
+	color: rgba(255,255,255,.7);
+}
+
+.button1 {
+  font-size: 2em;
+  background-color: rgba(255,255,255,.9);
+  color: black;
+  border: 2px solid #555555;
+  padding: 40px 60px;
+}
+
+.button1:hover {
+  background-color: #778899;
+  color: white;
+}
+
+.magical--underline {
+  cursor: pointer;
+  
+  background-image: linear-gradient(45deg, rgb(47,204,159) 0%, rgb(47,204,159) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% .1em;
+  background-position: 0 95%;
+  transition: background-size .25s linear, color .2s linear;
+  text-decoration: none;
+  padding: 3px;
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  font-family: 'Cantata One', serif;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.magical--underline:hover {
+  color: white;
+  background-size: 100% 95%;
+}
+
+/*#title {
+	margin-top: 2%;
+
+}*/
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+#arrow-back {
+	margin-top: 1.5%;
+	margin-left: 1.5%;
+  font-weight: 800;
+}
+
+#arrow-back a{
+	padding: 0px 30px;
+	background-color: rgba(0,0,0,.0);
+	border: 3px solid white;
+	font-size: 40px;
+	color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#arrow-back a:hover {
+	background-color: rgba(255,255,255,0.9);
+	color: black;
+}
+
+#logo {
+  width: 80%;
+  height: auto;
+  margin-top: 35%;
+  margin-left: 10%;
+}
+
+#about-us {
+  width: 60%;
+  height: auto;
+  opacity: .8;
+  margin-left: 100px;
+}
+
+#process-about {
+  font-weight: 700;
+  font-size: 1.6em;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#process-info {
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+#content-info {
+  padding-right: 35px;
+
+}
+
+aside {
+  display: block;
+  position: relative;  
+  /*margin: 80px 0;*/
+}
+
+aside h1 {
+    background: #369;
+    color: rgba(90,220,170, 0.5);
+    /*text-shadow: 2px 2px 3px rgba(255,255,255,.4);*/
+    padding: 15px 20px;
+    margin: 0 0 10px 0;
+    font-size: 7em;
+    font-weight: 800;
+    width: auto;
+    font-stretch: expanded;
+    padding-right: 0;
+    padding: left: 0;
+}
+
+/* Class name via Modernizr */
+.csstransforms aside {
+    border-left: 10px solid none;
+    
+    /* Make a little room */
+    padding-left: 10px;
+}
+.csstransforms aside h1 {
+
+    /* Abs positioning makes it not take up vert space */ 
+    position: absolute;
+    top: 500;
+    left: -160;
+    
+    /* Border is the new background */
+    background: none;
+    
+    /* Rotate from top left corner (not default) */
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin:    0 0;
+    -ms-transform-origin:     0 0;
+    -o-transform-origin:      0 0;
+    
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform:    rotate(-90deg); 
+    -ms-transform:     rotate(-90deg); 
+    -o-transform:      rotate(-90deg); 
+}
+
+#the-value {
+  padding-top: 5%;
+}
+
+#projects {
+    margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: auto;
+}
