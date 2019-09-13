@@ -155,10 +155,10 @@ a:hover {
 }
 
 #logo {
-  width: 60%;
+  width: 100%;
   height: auto;
   margin-top: 20%;
-  margin-left: 1%;
+  /*margin-left: 1%;*/
 }
 
 #about-us {
@@ -244,4 +244,8 @@ aside h1 {
   padding-bottom: 0;
   height: auto;
   /*line-height: 3;*/
+}
+
+#contact-us {
+ outline: 0px;
 }
